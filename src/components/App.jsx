@@ -11,9 +11,6 @@ function App() {
       {notes.map((note) => (
         <Note key={note.id} title={note.title} content={note.content} />
       ))}
-
-      {/* notes.map(function(note)
-      {<Note key={note.id} title={note.title} content={note.content} />}) */}
       <Footer />
     </div>
   );
